@@ -1,0 +1,42 @@
+#child{
+    line-height: 500px;
+    font-size: 50px;
+    color:white;
+}
+
+.cover {
+    background-color: black;
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parent{
+    font-family: 'Times New Roman';
+    background-image: url(https://s3.amazonaws.com/media.harvardartmuseums.org/production/uploaded_files/tour_builder/Index-Calderwood-Courtyard-01.jpg);
+
+}
+
+html body{
+    background-color: #e1d2b8;
+    font-family: 'Times New Roman';
+}
+
+.custom-padding{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.table-border {
+    border: 1px solid black;
+  }
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
